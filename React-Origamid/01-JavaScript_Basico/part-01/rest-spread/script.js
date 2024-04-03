@@ -1,35 +1,3 @@
-// Accessing a property of an object
-/* const menu = {
-    selector: '.main',
-};
-
-console.log(menu.selector); */
-
-//--
-// Arrow Functions
-/* function upperName(name) {
-    return name.toUpperCase();
-}
-console.log(upperName('haroldo')); */
-
-/* // const lowerName = (name) => {return name.toLowerCase();}
-const lowerName = (name) => name.toLowerCase()
-console.log(lowerName('LEONARDO')); */
-
-//--
-// Destructuring an object
-/* const handleMouse = (event) => {
-    // const x = event.clientX;
-    // const y = event.clientY;
-    // console.log(x, y);
-
-    const { clientX, clientY } = event;
-    console.log(clientX, clientY);
-};
-
-document.addEventListener('click', handleMouse); */
-
-//--
 // Rest operador (...)
 /* const showList = (company, customers) => {
         customers.forEach(customers => {
