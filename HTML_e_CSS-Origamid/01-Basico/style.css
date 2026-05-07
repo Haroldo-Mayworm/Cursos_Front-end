@@ -1,0 +1,57 @@
+h1 {
+    color: red;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+h1 {
+    color: blue;
+}
+
+h2,
+h3 {
+    color: green;
+}
+
+footer p {
+    color: gold;
+}
+
+#header {
+    border: 2px solid red;
+    padding-left: 10px;
+}
+
+.titulo {
+    border: 2px solid green;
+}
+
+.tx_grande {
+    font-size: 35px;
+}
+
+/* Background */
+
+.tituloVermelho {
+    background-color: red;
+    color: white;
+}
+
+.linkVerde {
+    text-decoration: none;
+    background-color: rgb(126, 248, 126);
+    color: black
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
