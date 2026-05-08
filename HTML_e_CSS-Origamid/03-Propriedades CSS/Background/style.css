@@ -1,0 +1,21 @@
+.bicicleta {
+  height: 700px;
+  background-image: url('./img/bicicleta.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
+
+.bicicleta h1 {
+  margin: auto;
+  background: darkgray;
+  padding: 1rem 2rem;
+}
+
+.pattern {
+  height: 200px;
+  background-image: url('./img/pattern.svg');
+  background-size: 50px;
+  background-repeat: repeat;
+}

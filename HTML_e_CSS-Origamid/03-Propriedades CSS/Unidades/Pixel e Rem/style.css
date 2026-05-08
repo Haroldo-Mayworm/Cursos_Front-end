@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+
+p {
+    background: lightblue;
+}
+
+a {
+    text-decoration: none;
+    background: darkblue;
+    color: white;
+    display: inline-block;
+}
+
+/* -------- */
+
+html {
+    font-size: 200%;
+}
+
+.px {
+    font-size: 24px;
+    padding: 16px 32px;
+}
+
+.rem {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}

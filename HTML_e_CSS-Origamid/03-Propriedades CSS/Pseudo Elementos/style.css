@@ -1,0 +1,34 @@
+.beforeAfter h1::after {
+    content: '';
+    display: block;
+    width: 75px;
+    height: 4px;
+    background-image: linear-gradient(to right, #caf, #fff 95%);
+}
+
+.beforeAfter li {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.beforeAfter li::before {
+    content: '';
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-image: linear-gradient(#caf, #fff);
+    border: 2px solid #caf;
+    margin-right: 7px;
+}
+
+/* --------- */
+
+.lineLetter p::first-line {
+    font-weight: bold;
+}
+
+.lineLetter p::first-letter {
+    font-size: 2rem;
+}
